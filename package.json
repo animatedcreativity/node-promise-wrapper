@@ -1,0 +1,25 @@
+{
+  "name": "node-promise-wrapper",
+  "version": "0.0.1",
+  "description": "Wrap promise to get both error & result in same line of code.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/animatedcreativity/node-promise-wrapper"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "promise",
+    "wrapper",
+    "wrap"
+  ]
+}
