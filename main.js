@@ -1,4 +1,8 @@
 exports = module.exports = function(value, p) {
+  if (typeof value === "object") {
+    p = value;
+    value = "data";
+  }
   return new Promise(function(resolve, reject) {
     p.then(function(d) {
       var data = {error: undefined};

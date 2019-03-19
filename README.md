@@ -2,7 +2,17 @@
 
 Wrap promise to get both error & result in same line of code. Saves time & code. Useful for `async` functions only.
 
-**Usage:**
+**Usage:** (without wrapper name)
+
+```
+var wrapper = require("node-promise-wrapper");
+var {error, data} = await wrapper(promise);
+```
+
+- error: Holds any error returned by the promise.
+- data: Holds any result returned by the promise.  
+
+**Usage:** (with wrapper name)
 
 ```
 var wrapper = require("node-promise-wrapper");
@@ -11,7 +21,7 @@ var {error, result} = await wrapper("result", promise);
 
 - error: Holds any error returned by the promise.
 - result: Holds any result returned by the promise.  
-`result` variable name must be same as wrapper value.
+`result` variable name must be same as wrapper name. Default is `data`.
 
 **Example:**
 

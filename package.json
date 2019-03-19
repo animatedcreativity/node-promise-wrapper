@@ -1,6 +1,6 @@
 {
   "name": "node-promise-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrap promise to get both error & result in same line of code.",
   "main": "main.js",
   "scripts": {
